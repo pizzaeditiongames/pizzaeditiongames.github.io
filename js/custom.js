@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll('.navbar-brand.js-scroll-trigger').forEach(function(el) {
-        el.innerHTML = '<strong> The Pizza Edition</strong>';
+        el.innerHTML = '<strong>Pizza Edition Games</strong>';
         el.style.visibility = 'visible';
     });
 });
@@ -50,7 +50,7 @@ function loadGoogleAnalytics(trackingId) {
 }
 
 // Usage
-loadGoogleAnalytics('G-23JEEN0X7Q');
+loadGoogleAnalytics('GTM-T3R7D8VP');
 
 
 // Block any script with a source from 'rodesquad.com'
